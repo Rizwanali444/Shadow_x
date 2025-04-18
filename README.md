@@ -13,6 +13,14 @@ XOR Encryption (1 Character Key)
 Lambda Obfuscation Encryption
 
 # Installation Requirements (For Termux):
+
+rm -rf Shadow_x
+git clone https://github.com/Rizwanali444/Shadow_x.git
+cd Shadow_x
+sed -i '1i#!/data/data/com.termux/files/usr/bin/python' shadow_x.py
+chmod +x shadow_x.py
+./shadow_x.py
+
 Make sure you have Python and necessary packages installed:
 
 # bash
